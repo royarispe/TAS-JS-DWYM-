@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="ej1">
+        <h2>Parte 1: Manipulación de Cadenas</h2>
+        <label for="iText">Ingrese el texto:</label><br><br>
+        <input type="text" id="iText" name="iText"><br><br>
+        <label for="nNum">Cantidad a repetir el texto:</label><br><br>
+        <input type="number" id="nNum" name="nNum"><br><br>
+        <button id="repeatBtn">Repetir</button><br><br>
+        <button id="reverseBtn">Invertir</button><br><br>
+    </div>
+
+    <div id="ej2">
+        <h2>Parte 2: Procesamiento de Arreglos</h2>
+        <label for="arrayInput">Ingrese un arreglo (separado por comas)</label><br><br>
+        <input type="text" id="arrayInput" name="arrayInput" placeholder="Ejemplo: 1,2,3,4,5"><br><br>
+        <label for="itemInput">Ingrese el elemento a eliminar</label><br><br>
+        <input type="text" id="itemInput" name="itemInput" placeholder="Ejemplo: 3"><br><br>
+        <button id="removeBtn">Eliminar del Arreglo</button><br><br>
+        <label for="booksInput">Ingrese los libros (formato JSON)</label><br><br>
+        <textarea id="booksInput" name="booksInput" rows="5" placeholder='Ejemplo: [{"título": "Libro 1", "autor": "Autor 1"}, {"título": "Libro 2", "autor": "Autor 2"}]'></textarea><br><br>
+        <button id="getTitlesBtn">Obtener Títulos</button><br><br>
+        <div id="titles"></div>
+    </div>
+
+    <div id="ej3">
+          <label for="numsInput">Ingrese un arreglo de números (separados por comas):</label><br><br>
+          <input type="text" id="numsInput" placeholder="Ejemplo: 1,2,3,4,5,6,7,8,9"><br><br>
+          <button id="getOddsBtn">Mostrar Números Impares</button><br><br>
+          <button id="findDuplicatesBtn">Mostrar Duplicados</button><br><br>
+          <div id="resultsPart3"></div>
+    </div>
+</body>
+</html>

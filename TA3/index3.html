@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TA3</title>
+</head>
+<body>
+    <div id="part1">
+        <label for="lPassword">Longitud de la nueva contraseña:  </label>
+        <input type="number" id="lPassword" name="lPassword" min="8" max="16" placeholder="Min 8"><br><br>
+        <div id="resultPasswd"></div><br>
+        <button id="generatePasswd">Generar contraseña</button>
+    </div><br><br>
+    <div id="part2">
+        <label for="namePeople">Nombre:  </label>
+        <input type="text" id="namePeople" name="namePeople" placeholder=""><br><br>
+        <label for="agePeople">Edad:  </label>
+        <input type="number" id="agePeople" name="agePeople" min="0" max="150"><br><br>
+        <div id="resultPeople"></div><br>
+        <button id="addPeople">Añadir persona</button>
+        <button id="findTheOldestBtn">Encontrar a la persona mas mayor</button>    
+    </div>    
+</body>
+</html>
